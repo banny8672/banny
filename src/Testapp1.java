@@ -25,6 +25,7 @@ public class Testapp1 extends JPanel implements ActionListener{
 			frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 			frame.setContentPane(new Testapp1());
 			frame.pack();
+			Sustem.out.println("hiiiii");
 			frame.setLocation(700,400);
 			frame.setVisible(true);
 			System.out.println("hello");
