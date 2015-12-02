@@ -27,7 +27,7 @@ public class Testapp1 extends JPanel implements ActionListener{
 			frame.pack();
 			frame.setLocation(700,400);
 			frame.setVisible(true);
-			
+			System.out.println("hello");
 		
 			
 		}
