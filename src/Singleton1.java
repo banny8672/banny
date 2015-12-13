@@ -15,6 +15,7 @@ public class Singleton1 extends JFrame{
 	static JLabel label;
 	static String str = "";
 	
+	
 	private Singleton1()
 	{
 		
@@ -23,7 +24,7 @@ public class Singleton1 extends JFrame{
 	public static Singleton1 getInstance()
 	{
 		if(uniqueInstance == null)
-		{
+		{System.out.println("hello");
 			uniqueInstance = new Singleton1();
 		}
 		return uniqueInstance;
